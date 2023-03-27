@@ -1,0 +1,38 @@
+html {
+    text-align: center;
+}
+
+body {
+    background-color: lightblue;
+    color: black;
+}
+
+#flex_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.rightBox {
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+}
+
+#infoBox {
+    text-align: left;
+    display: block;
+}
+
+#drawSettings {
+    display: block;
+}
+
+#btnFill {
+    margin-top: 1em;
+}
+
+#canvas {
+    border: 2px solid black;
+    margin-right: 2em;
+}
